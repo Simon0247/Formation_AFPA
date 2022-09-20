@@ -1,0 +1,96 @@
+											PARTIE 3 – LES TESTS
+					
+					
+	Exercice 3.1
+
+Variable n en entier
+Début
+    Ecrire: "Entrez un nombre"
+Lire n
+Si n > 0 alors 
+    Ecrire "Ce nombre est positif"
+SinonSi n < 0 alors
+    Ecrire "Ce nombre est négatif"
+	
+	
+	
+	
+	Exercice 3.2
+
+Variable r et s en entier
+Début
+    Ecrire: "Entrez deux nombres"
+Lire r et s
+Si ( r < 0 ou s > 0) ou ( r > 0 ou s < 0) alors
+    Ecrire: "leur produit est positif"
+SinonSi 
+    Ecrire: "leur produit est négatif"
+Finsi
+Fin
+
+
+
+
+
+Exercice 3.3
+
+Variables m, r ,s
+Début
+    Ecrire: "Entrez trois nom à l'utilisateur"
+Lire m, r, s
+Si m < r < s alors 
+    Ecrire: "ces noms sont dans l'alphabets"
+Sinon
+    Ecrire: "ces noms ne sont pas dans l'alphabets"
+FinSi
+Fin
+
+
+
+Exercice 3.4
+
+Variable a en entier
+Début
+    Ecrire: "Entrez un nombre à l'utilisateur"
+Lire a
+Si a < 0 alors
+    Ecrire: "ce nombre est positif"
+SinonSi a = 0
+    Ecrire: "ce nombre est nul"
+Sinon a > 0 alors
+    Ecrire: "ce nombre est négatif"
+FinSi
+Fin
+	
+	
+	
+Exercice 3.5
+
+Variable o,t en entier
+Début
+	Ecrire: "Entrez deux noombres à l'utiisateur"
+Lire o,t
+Si o = 0 ou t = 0 alors
+    Ecrire: "Le produit est nul
+SinonSi (o < 0 Et t < 0) ou (o > 0 Et t > 0)
+    Ecrire: "le produit est positif"
+Sinon 
+    Ecrire: "Le produit est négatif
+FinSi
+Fin 
+	
+	
+Exercice 3.6
+
+Variable age en Entier
+Début
+Ecrire “Entrez l'age d'un enfant :”
+Lire age
+Si age >= 12 alors
+    Ecrire: “le cadet“
+SinonSi age >= 10 alors 
+    Ecrire: “le Minime”
+Sinon age >= 8 alors 
+    Ecrire: “l”
+Finsi
+Fin
