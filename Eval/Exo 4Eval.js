@@ -1,15 +1,15 @@
 let PU = window.prompt("Entrez le prix")
 let QTECOM = window.prompt("Quantité")
 let TOT = (PU*QTECOM);
-let PAP = ("Pris à payer");
-console.log("pu = " + PU + "/QTECOM= " + QTECOM)
+let pa = window.prompt("Prix à payer")
+alert("pu = " + PU + "/QTECOM= " + QTECOM)
 
-let port = 0;
-
-    if (TOT > 100 && TOT < 200){
+let port;
+let p;
+    if (TOT > 99 && TOT < 201){
         let remis = TOT * 0.05;
         TOT = TOT - remis;
-        console.log("remise 5% (" + remis + ") = " + TOT);
+        alert("remise 5% (" + remis + ") = " + TOT);
     }
     else if (port > 500){
            (port = 0,02); 
@@ -17,10 +17,17 @@ let port = 0;
     else if (port = 6 + '€'){
         
     } 
-    if(remis ){
-}
+    if (PU * QTECOM >= 500){
+        (port = 0 - pa)
 
-    
+    }
+    // if(quant = 600 + '€'){
+    //     ("la remise = "-60 + '€' && port == 0 ); 
+    // }
+
+    // else if (quant = 501 + '€'){
+    //     ("la remise = ")
+    // }
      
 
 

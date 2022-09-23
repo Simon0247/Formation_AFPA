@@ -3,6 +3,6 @@ let saisie = window.prompt(`Veuillez choisir un prénom parmi ${[...tab]}.`)
 if(tab.includes(saisie)){
 	tab.splice(tab.indexOf(saisie),1);
 	tab.push(" ");
-	console.log(tab)
+	alert(tab)
 }
 else{alert("erreur")}
