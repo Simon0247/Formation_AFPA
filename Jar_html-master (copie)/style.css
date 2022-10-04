@@ -1,0 +1,62 @@
+body {
+    color: rgb(8, 15, 1);    
+   }
+
+   li{
+      display: inline-block
+   }
+
+
+  
+.colonne {
+    background-color: rgb(146, 142, 142);
+   width: 30%; 
+   
+}
+
+   
+
+   strong{
+      font-size: 30pt;
+
+   }
+
+   p { 
+      text-align: start;
+      font-size: 10pt;
+      color :rgb(6, 6, 26)
+      
+
+   }
+
+   .ent{
+      font-size: 12pt;
+
+   }
+
+   .Qual{
+      font-size: 12pt;
+
+   }
+
+   .Dev{
+      font-size: 12pt;
+
+   }
+   
+   .ul1{
+      flex-direction: row;
+   }
+   
+   
+
+  .main{
+     display: flex;
+     justify-content: space-between;
+  }
+
+  
+ 
+  
+
+  

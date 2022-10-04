@@ -1,0 +1,128 @@
+body {
+    color: rgb(8, 15, 1);    
+   }
+
+   li{
+      display: inline-block
+   }
+
+   .Acc {
+      flex-direction: ;
+      color: antiquewhite;
+
+   }
+
+   .Tab{
+      color: antiquewhite;
+
+   }
+
+   .Form{
+      color: antiquewhite;
+
+   }
+
+   
+   .IMG1{
+      width : auto;
+      height : 150px;
+
+   }
+
+
+   .IMG2{
+      width : 100%;
+      height : auto;
+
+   }
+
+nav {
+   background-color: black;
+   width: auto;
+   height: 20%;
+}
+   .logo
+   {
+      height: 150px;
+      width: 300px;
+      
+   }
+
+  
+.colonne {
+    background-color: rgb(146, 142, 142);
+   width: 30%; 
+   
+}
+
+   
+
+   strong{
+      font-size: 30pt;
+
+   }
+
+   p { 
+      text-align: start;
+      font-size: 10pt;
+      color :rgb(6, 6, 26)
+      
+
+   }
+
+   .ent{
+      font-size: 12pt;
+
+   }
+
+   .Qual{
+      font-size: 12pt;
+
+   }
+
+   .Dev{
+      font-size: 12pt;
+
+   }
+   
+   .ul1{
+      flex-direction: row;
+   }
+   
+   .Ment{
+      color: rgb(241, 241, 234);
+
+   }
+
+   .Hor{
+      color: rgb(233, 231, 229);
+      
+   }
+
+   .PDS{
+      color: rgb(230, 227, 225);
+
+   }
+
+
+  .main{
+     display: flex;
+     justify-content: space-between;
+  }
+
+  .Toutlejar{
+     justify-content: flex-right
+  }
+
+  .jar {
+     display: flex;
+     flex-direction: row;
+     
+  }
+
+  nav{
+     background: black;
+     
+  }
+
+  
